@@ -1,12 +1,17 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+  }
+
 html, body {
     height: 100%;
-    margin: 0;
+    font-family: "Outfit", sans-serif;
+    color: #1f314f;
 }
 
 body {
     display: flex;
     justify-content: center;
-    align-items: flex-start;
     flex-direction: column;
     background-color: #d5e1ef;
     align-items: center;
@@ -18,11 +23,11 @@ body {
     height: 499px;
     align-items: center;
     padding-top: 16px;
-    border-radius: 1.0em;
+    border-radius: 0.7em;
     text-align: center;
     display: flex; 
     flex-direction: column;
-    margin-bottom: 20px;
+    margin-bottom: 0.5em;
 }
 
 .attribution {
@@ -36,24 +41,25 @@ body {
 
 .title {
     color: #1f314f;
-    line-height: 120%;
     font-family: "Outfit";
-    font-optical-sizing: auto;
     font-weight: 800;
     font-size: 1.4em;
     padding-left: 16px;
     padding-right: 16px;
+    margin-bottom: 0.5em;
+    margin-top: 0.5rem;
 }
 
 .subtitle {
     color: #1f314f;
-    line-height: 140%;
     font-family: "Outfit";
     font-optical-sizing: auto;
-    font-size: 1.0em;
+    font-size: 15px;
     letter-spacing: 0.2px;
     padding-left: 16px;
     padding-right: 16px;
+    margin-bottom: 0.5em;
+    margin-top: 0.5em;
 }
 
 .imageQRCode {
