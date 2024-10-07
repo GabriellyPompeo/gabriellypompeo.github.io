@@ -1,0 +1,63 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    background-color: #d5e1ef;
+    align-items: center;
+}
+
+.principalSquare {
+    background-color: white;
+    width: 320px;
+    height: 499px;
+    align-items: center;
+    padding-top: 16px;
+    border-radius: 1.0em;
+    text-align: center;
+    display: flex; 
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+.title {
+    color: #1f314f;
+    line-height: 120%;
+    font-family: "Outfit";
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-size: 1.4em;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.subtitle {
+    color: #1f314f;
+    line-height: 140%;
+    font-family: "Outfit";
+    font-optical-sizing: auto;
+    font-size: 1.0em;
+    letter-spacing: 0.2px;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.imageQRCode {
+    border-radius: 1.0em;
+    width: 288px;
+    height: 288px;
+}
